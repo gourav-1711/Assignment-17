@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weight checker</title>
+</head>
+
+<body>
+
+
+    <!-- A BMI of 18.5–25 kg/m2 is considered normal.
+A BMI of less than 18.5 kg/m2 is considered underweight.
+A BMI of 25–29.9 kg/m2 is considered overweight.
+A BMI of 30 kg/m2 or higher is considered obese. -->
+
+</body>
+
+
+<script>
+
+    let weight = Number(prompt("enter your weight in kg"))
+    let height = Number(prompt("enter your height in cm"))
+
+
+    let newheight = (height / 100);
+
+    let m = newheight ** 2
+
+    let bmi = (weight / m);
+
+    // console.log(bmi);
+    
+    // console.log(bmi<30) ? "yes" : "no";
+    
+        
+    if (bmi >= 18.5 && bmi > 26) {
+        console.log("Normal")
+    }
+    else {
+        if (bmi < 18.5) {
+            console.log("UnderWeight")
+        }
+        else {
+            if (bmi >= 25 && bmi > 31) {
+                console.log("overwight")
+            }
+            else {
+                if (bmi >30) {
+                    console.log("obeese")
+                }
+            }
+        }
+    }
+
+
+
+</script>
+
+</html>
