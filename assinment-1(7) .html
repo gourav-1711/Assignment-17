@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>number sorter</title>
+</head>
+
+<body>
+    <h1>
+        number sorter
+    </h1>
+</body>
+
+
+<script>
+
+
+    let a = Number(prompt('enter a number a'))
+    let b = Number(prompt('enter a number b'))
+    let c = Number(prompt('enter a number c'))
+
+    if ((c > a, b) && (a < c && a > b) && (b < a, c)) {
+        console.log(b);
+        console.log(a);
+        console.log(c);
+    }
+    else {
+        if ((b > a, c) && (c > a && c < b) && (a < c, b)) {
+            console.log(a);
+            console.log(c);
+            console.log(b);
+        }
+        else {
+            if ((c > a, b) && (b < c && b > a) && (a < c, b)) {
+                console.log(a);
+                console.log(b);
+                console.log(c);
+            }
+            else {
+                if ((a > b, c) && (b > c && b < a) && (c < b, a)) {
+                    console.log(c);
+                    console.log(b);
+                    console.log(a);
+                }
+                else {
+                    if ((a > b, c) && (c > b && b < a) && (b < c, a)) {
+                        console.log(b);
+                        console.log(c);
+                        console.log(a);
+                    }
+                    else {
+                        if ((b > a, c) && (a < b && a > c) && (c < a, b)) {
+                            console.log(c);
+                            console.log(a);
+                            console.log(b);
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+
+</html>

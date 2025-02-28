@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grade calculater</title>
+</head>
+
+<body>
+
+</body>
+
+<script>
+
+    let grade = Number(prompt("enter your age"))
+
+    if (grade >= 90 && grade<101) {
+        console.log("your division is A");
+
+    }
+    else {
+        if (grade >= 80 && grade<101) {
+            console.log("your division is B");
+        }
+        else {
+            if (grade >= 70 && grade<101) {
+                console.log("your division is C");
+            }
+            else {
+                if (grade >= 60 && grade<101) {
+                    console.log("your division is d");
+                }
+                else {
+
+                    if (grade < 0) {
+                        console.log("Please Enter Valid Percentage");
+                    }
+
+                    else {
+
+                        if(grade>101){
+                            console.log("Please Enter Valid Percentage");
+                        }
+                        else{
+                            console.log("you FAIL");
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+
+
+</script>
+
+</html>
